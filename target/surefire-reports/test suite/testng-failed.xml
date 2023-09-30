@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test-name1(failed)" verbose="0">
+    <classes>
+      <class name="samplepack.FrameWork">
+        <methods>
+          <include name="meth2"/>
+        </methods>
+      </class> <!-- samplepack.FrameWork -->
+    </classes>
+  </test> <!-- test-name1(failed) -->
+</suite> <!-- Failed suite [test suite] -->
